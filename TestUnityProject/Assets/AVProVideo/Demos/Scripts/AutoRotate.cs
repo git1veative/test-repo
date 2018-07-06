@@ -38,5 +38,16 @@ namespace RenderHeads.Media.AVProVideo.Demos
 			z = Random.Range(-s, s);
 			_timer = Random.Range(5f, 10f);
 		}
+
+		public void PushToShantanu(){
+
+			if (_timer <= 0f)
+			{
+				Randomise();
+			}
+		}
 	}
+
+
+
 }
