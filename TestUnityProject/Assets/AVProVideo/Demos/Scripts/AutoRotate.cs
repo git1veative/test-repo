@@ -46,6 +46,15 @@ namespace RenderHeads.Media.AVProVideo.Demos
 				Randomise();
 			}
 		}
+
+
+		public void PushOtherToShantanu(){
+
+			if (_timer <= 0f)
+			{
+				Randomise();
+			}
+		}
 	}
 
 
